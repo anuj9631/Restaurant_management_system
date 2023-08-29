@@ -1,0 +1,362 @@
+body {
+    float: left;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+ .main-head{
+   height:100px;
+   background-color:rgb(141, 140, 140);
+   width: 100%;
+ }
+   p {
+     font-size: 15px;
+     line-height: 28px;
+     color:#9fa4af;
+     display: inline-block;
+       letter-spacing: 0.5px;
+   }
+   
+   
+   a,
+ a:hover,
+ a:focus,
+ a:active {
+   color: inherit;
+   outline: none;
+   -webkit-text-decoration: none;
+   -moz-text-decoration: none;
+   -ms-text-decoration: none;
+   -o-text-decoration: none;
+   text-decoration: none;
+ }
+ #lg{
+   height: 70px;
+   width: 140px;
+   /* border-radius: 5px 10px; */
+ }
+ 
+ .logo {
+     float: left;
+     width: 100%;
+     max-width: 20%;
+     margin: 26px 0;
+     margin-top: 15px;
+   }
+   .logo > h1 {margin: 0;}
+   nav {
+    float: left;
+     width: 100%;
+     max-width: 80%;
+   }
+    .menu-sec {
+     float: left;
+     width: 100%;
+   } 
+   nav > div > ul {
+     float: left;
+     padding-left: 0;
+     list-style: none;
+     margin-bottom: 0;
+   }
+   nav > div > ul > li {
+       color: #333;
+       float: left;
+       font-size: 16px;
+       font-weight: 600;
+       margin-right: 35px;
+       padding: 32px 35px 32px 0;
+       position: relative;
+   }
+   nav > div > ul > li span {
+     font-size: 12px;
+     display: block;
+     font-weight: normal;
+     margin-bottom: 5px;
+   }
+  
+    
+   .menu-sec > a:hover{color: #9cbbf9;}
+   .menu-sec > a:focus {color: #fff;}
+   .menu-item-has-children{
+     color: #ebfefe;
+   }
+   .menu-item-has-children:hover{
+    color: #333b2f;
+  }
+   .red-clr{
+     color:rgb(250, 181, 4)
+   }
+   
+   .breadcrumb-item:hover {
+    color: #f8f8f8;
+    cursor: pointer;
+  }
+  .breadcrumb{
+    float: right;
+  }
+.logout{
+  font-family: 'Big Shoulders Text', cursive;
+   color: #043330;
+   background-color: #9cb9be;
+   font-size: 10px;
+   padding: 5px 10px;
+   letter-spacing: 2px;
+   border: 0;
+   margin-top: 40px;
+}
+.rounded-corners{
+  border-radius: 8px;
+}
+.form-inline{
+  float: left;
+}
+.logout:hover{
+  background-color: #c00b0b;
+  color: #f8f8f8; ;
+}
+.fixed-bg{
+  height:100%;
+  width:100%;
+  margin:0;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-2;
+	background-position: top -100px center;
+  background-repeat: repeat;
+  
+}
+.fixed-bg{
+  background-attachment:fixed !important;
+}
+ .bottom-clouds-mockup {
+   position: absolute;
+   bottom: -40px;
+   left: 0;
+   right: 0;
+   width: 100%;
+   margin-top: 500px;
+ }
+ .restaurant-searching{
+   float: left;
+   width: 100%;
+   padding: 0 100px 100px;
+ }
+ .restaurant-searching-inner {
+   display: inline-block;
+   max-width: 992px;
+   width: 100%;
+   margin-top: 130px;
+ }
+ .restaurant-searching-inner > h2 {
+   font-family: Poppins;
+   color: #fff;
+   font-size: 50px;
+   max-width: 70%;
+   display: inline-block;
+   line-height: 55px;
+   margin-bottom: 0;
+   font-weight: 700;
+ 
+   -webkit-text-shadow: 0 5px 0 rgba(0,0,0,.38);
+   -ms-text-shadow: 0 5px 0 rgba(0,0,0,.38);
+   -o-text-shadow: 0 5px 0 rgba(0,0,0,.38);
+   text-shadow: 0 5px 0 rgba(0,0,0,.38);
+ }
+ .restaurant-searching-inner > h2 span{
+   font-family:fira code;
+   font-size: 60px;
+   font-weight: normal;
+ }
+
+
+ 
+ .title1-wrapper .title1-inner > h2{margin-bottom: 0;}
+ .title1-inner {
+   display: inline-block;
+   max-width: 55%;
+     vertical-align: middle;
+ }
+ .title1-inner span{
+   display: inline-block;
+   width: 100%;
+   font-family: Great Vibes;
+   font-size: 24px;
+   margin-bottom: 10px;
+     letter-spacing: 0.5px;
+   margin-top: 258px;
+ }
+ .title1-inner > h2, 
+ .title1-inner > h3 {
+     color: #222;
+     display: inline-block;
+     font-family: Poppins;
+     font-size: 40px;
+     font-weight: bold;
+     margin-bottom: 20px;
+     margin-top: 0;
+     text-transform: uppercase;
+     width: 100%;
+ }
+ .title1-inner > h3 {font-size: 33px;}
+ .title1-inner > p {
+     color: #6f6f6f;
+     display: inline-block;
+     font-size: 16px;
+     margin-bottom: 0;
+     width: 100%;
+     line-height: 24px;
+ }
+ 
+ .popular-dish-box {
+   float: left;
+   width: 100%;
+   margin-bottom: 50px;
+ }
+ .popular-dish-thumb {
+   float: left;
+   width: 100%;
+   position: relative;
+ }
+ .popular-dish-thumb > a {
+   float: left;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+ }
+ 
+ .popular-dish-info {
+     background: #f9f9f9 none repeat scroll 0 0;
+     float: left;
+     padding: 30px 33px;
+     width: 100%;
+ }
+ .popular-dish-info > h4 {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 12px;
+     margin-top: 0;
+ }
+ .popular-dish-info > p {
+     margin-bottom: 34px;
+     color: #636363;
+     line-height: 24px;
+     font-family: lato;
+     display: inline-block;
+     width: 100%;
+ }
+ .price {
+   float: left;
+   font-size: 22px;
+   font-family: Poppins;
+   color: #1e1e1e;
+  font-weight: bold;
+  
+ }
+ .rating{
+  height: 20px;
+  width: 20px;
+margin-top: -5px;
+ }
+ .rate{
+  float: right;
+ }
+ .post-rate{
+  box-sizing: border-box;
+  background-color: rgb(248, 211, 3);
+ }
+ .popular-dish-info .price {line-height: 37px;}
+ .popular-dish-info > a {
+     background-color: #272727;
+     border: 1px solid transparent;
+     color: #fff;
+     float: right;
+     font-size: 12px;
+     font-weight: bold;
+     padding: 8px 20px;
+     text-transform: uppercase;
+ }
+ 
+ 
+ 
+ .footer-style{
+  position:absolute;
+  bottom: 0;
+height: 300px;
+width: 100%;
+ }
+ .footer{
+  position:relative;
+  bottom: 0;
+ }
+ .bottom-bar p {
+   color: #999;
+   margin-bottom: 0;
+   padding: 22px;
+   font-weight: 700;
+   font-size: 12px;
+   width: 100%;
+   background-color: #313232;
+   margin-left: 0;
+   margin-right: 0;
+ }
+ .row-flex {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .flex-column-form {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   margin: 30px 20px;
+ }
+ 
+ .btn.btn-primary {
+   font-family: 'Big Shoulders Text', cursive;
+   color: #ffffff;
+   background-color: #5b6269;
+   font-size: 10px;
+   padding: 5px 10px;
+   letter-spacing: 2px;
+   border: 0;
+   margin-top: -10px;
+ } 
+ 
+ .btn.btn-primary:hover {
+   background-color: #b6a3a3;
+ }
+ .contact-adress {
+   flex: 1;
+   margin: 30px 20px;
+   font-size: 1.2em;
+ }
+ .opening-time {
+   flex: 1;
+   margin: 30px 20px;
+   font-size: 1.2em;
+   margin-left: 60px;
+ }
+ 
+ .form-group p {
+   font-size: 1.2em;
+ }
+ 
+ .opening-time p span,
+ .contact-adress p span {
+   display: block;
+ }
+.card{
+  float: left;
+  margin: 24px;
+}
+fieldset {
+  width: 100%;
+  height: 100px;
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  padding: 10px;
+}
